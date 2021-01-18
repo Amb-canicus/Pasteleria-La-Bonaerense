@@ -1,0 +1,268 @@
+            @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+            body {
+                margin: 0%;
+                padding: 0%;
+                height: 100vh;
+                width: 100vw;
+                /* color: #2e2e31; */
+                /* display: flex; */
+                /* flex-direction: column;
+                align-items: center; */    
+                       
+            }
+
+            html{
+                outline: 0px;
+            }
+            * {
+                box-sizing: border-box;
+                position: relative;
+                height: auto;
+            }
+
+            nav {
+                /* background-image: url(imagenes/fondo2.jpg); */
+                width: 100%;            
+                padding: 5px;
+            }
+
+            ul li {
+                display: inline;
+                margin: 10px;
+                font-size: 25px;
+                font-weight: bolder;
+            }
+
+            a {
+                color: #31723f;
+                text-decoration: none;
+                list-style: none;
+                font-family: 'Cinzel', serif, bold;
+            }
+
+            
+
+            img {
+                object-fit: contain;
+                width: 100%;
+                height: auto;
+            }
+            
+            .banner {
+                width: 100%;
+                height: 850px;
+                min-height: 300px;
+                /* background-image: url(imagenes/image\ \(1\).jpg); */
+                background-size: contain;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                background: rgb(27, 24, 23);
+                clip-path: polygon(100% 0, 100% 41%, 0 100%, 0 0);
+            }
+
+            
+
+            
+
+            .texto-imagen-principal {
+                font-family: 'Cinzel', serif;
+                color: rgb(253, 252, 252);
+                font-size: 65px;
+                font-weight: bold;
+            }
+
+            .animate__animated.animate__slideInLeft {
+                --animate-duration: 3s;
+              }
+            
+
+            
+            
+
+            /*CAJAS*/
+
+            .contenedor-cajas {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                background-image: url(imagenes/fondocaja.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                /* background-image: url(imagenes/fondo2.jpg); */
+                
+            }
+
+            .titcaja {
+                font-size: 45px;
+                font-family: Cinzel;
+                color: #175538;
+            }
+
+            .caja {
+                height: 400px;
+                width: 350px;
+                margin: 5%;
+                text-align: center;
+                background-size: contain;
+                border-radius: 5%;
+            }
+
+            .dulces {
+                background-image: url(/imagenes/dulces.jpg);
+                box-shadow: 16px 13px 8px 8px #000000;
+                opacity: 0.6;
+            }
+
+            .tortas {
+                background-image: url(/imagenes/tortas.jpg);
+                box-shadow: 16px 13px 8px 8px #000000;
+                opacity: 0.6;
+            }
+
+            .salados {
+                background-image: url(/imagenes/salados.jpg);
+                box-shadow: 16px 13px 8px 8px #000000;
+                opacity: 0.6;
+            }
+
+            .recetas {
+                background-image: url(/imagenes/recetas.jpg);
+                box-shadow: 16px 13px 8px 8px #000000;
+                opacity: 0.6;
+            }
+
+            .consejos {
+                background-image: url(imagenes/consejos.jpg);
+                box-shadow: 16px 13px 8px 8px #000000;
+                opacity: 0.6;
+            }
+
+            .clientes {
+                background-image: url(imagenes/clientes2.jpg);
+                box-shadow: 16px 13px 8px 8px #000000;
+                opacity: 0.6;
+            }
+
+            /**SLIDER*/
+
+            .contenedor-slider {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 90vh;
+                background: rgb(13, 13, 14);
+                
+                /* background-image: url(imagenes/fon.jpg); */
+            }
+
+            .content {
+                height: 800px;
+                width: 80%;
+                position: relative;
+                
+               
+                
+            }
+
+            .images{
+                position: relative;
+            }
+            
+
+            .images img {
+                margin-top: 7%;
+                clip-path: circle(50% at 50% 50%);
+            }
+
+            p {                
+                text-align: center;
+                font-size: 45px;
+                color: rgb(219, 213, 213);
+                margin: 3px;
+            }
+            /*VIDEO*/
+            video {
+                object-fit: cover;
+                width: inherit;
+                height: 100vh;
+                top: 0;
+                left: 0;
+                
+                
+              }
+              .sobre{
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                
+              }
+            /*QUIENES SOMOS*/
+            section{
+                height: 900px;
+                background-image: url(imagenes/masa1.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                text-align: center;
+                
+            }
+            section span {
+                font-size: 50px;
+            }  
+            section p{
+                color: #000000;
+                font-size: 25px;
+            }
+
+            /*INGREDIENTES*/
+            .ingredientes{
+               background-color: #52b788;
+            }
+            .ingredientes-titulo{
+                text-align: center;
+                font-family: Lobster;
+                font-size: 90px;
+            }
+
+            h4{
+                text-align: center;
+                font-family: 'Caveat', cursive;
+                font-size: 45px;
+            }
+            .lista-ing{
+                display: flex;
+                justify-content: center;
+                
+            }
+            .naturales h3{
+                font-family: 'Caveat', cursive;
+            }
+            .certificados h3{
+                font-family: 'Caveat', cursive;
+            }
+            .certificados ul{
+                font-family: 'Caveat', cursive;
+                font-size: 22px;
+            }
+            .naturales ul{
+                font-family: 'Caveat', cursive;
+                font-size: 22px;
+                
+            }
+
+
+            /*DIVISORES*/   
+            .divisor1{
+                height: 200px;
+            }
+            .divisor2{
+                height: 200px;
+                background-color: #52b788;
+            }
+            .divisor3{
+                background-color: #000000;
+                height: 150px;
+            }
